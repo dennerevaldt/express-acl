@@ -22,11 +22,19 @@ app.use(acl.authorize);
 
 // routes simulate
 app.get('/users', function (req, res) {
-  res.json({'msg': 'Hello Users'});
+  res.json({'msg': 'Hello get users'});
+});
+
+app.post('/users', function (req, res) {
+  res.json({'msg': 'Hello post users'});
+});
+
+app.put('/users', function (req, res) {
+  res.json({'msg': 'Hello put users'});
 });
 
 app.get('/clients', function (req, res) {
-  res.json({'msg': 'Hello Clients'});
+  res.json({'msg': 'Hello get clients'});
 });
 
 // error handling
