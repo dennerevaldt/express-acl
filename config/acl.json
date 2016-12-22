@@ -1,0 +1,28 @@
+[{
+  "group": "user",
+  "permissions": [
+    {
+      "resource": "users",
+      "methods": [
+        {
+          "http": "GET",
+          "qs": ["type", "id", "pj"]
+        },
+        {
+          "http": "POST"
+        },
+        {
+          "http": "PUT"
+        }
+      ]
+    },{
+      "resource": "clients",
+      "methods": [
+        {
+          "http": "GET",
+          "qs": ["type"]
+        }
+      ]
+    }
+  ]
+}]

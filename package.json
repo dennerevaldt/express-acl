@@ -1,0 +1,17 @@
+{
+  "name": "@denner/express-acl",
+  "version": "1.0.0",
+  "description": "ACL for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denner Evaldt <dnrevaldt@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}
