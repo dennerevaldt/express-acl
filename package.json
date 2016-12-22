@@ -8,9 +8,7 @@
   },
   "author": "Denner Evaldt <dnrevaldt@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "express": "^4.14.0"
   }

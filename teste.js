@@ -4,19 +4,23 @@ const express = require('express'),
       app     = express(),
       router  = express.Router();
 
+// middleware config acl
 acl.config({
   baseUrl: '/',
   filename:'acl.json',
   path:'config'
 });
 
+// simulate token
 app.use(function(req, res, next){
   req.decoded = {role: 'user'};
   next();
 });
 
+// authorize acl
 app.use(acl.authorize);
 
+// routes simulate
 app.get('/users', function (req, res) {
   res.json({'msg': 'Hello Users'});
 });
