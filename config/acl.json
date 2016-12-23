@@ -6,7 +6,7 @@
       "methods": [
         {
           "http": "GET",
-          "qs": ["type", "id", "pj"]
+          "qs": ["type", "id"]
         },
         {
           "http": "POST"
