@@ -1,15 +1,26 @@
 {
   "name": "@denner/express-acl",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "ACL for express",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Denner Evaldt <dnrevaldt@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "express": "^4.14.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennerevaldt/express-acl.git"
+  },
+  "keywords": [
+    "acl"
+  ],
+  "bugs": {
+    "url": "https://github.com/dennerevaldt/express-acl/issues"
+  },
+  "homepage": "https://github.com/dennerevaldt/express-acl#readme"
 }
